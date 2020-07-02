@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  h2{
+    font-size: 42px;
+    font-family: sans-serif;
+    font-weight: 530;
+    margin: 0;
+   padding-top: 100px;
+  }
+  h1{
+    color: deeppink;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+    
+     }
+     p{
+      color: dimgray;
+      text-align: justify;
+      padding-bottom: 40px;
+      padding-top: 10px;
+  }
+  .half-width{
+    width: 35%;
+    float: left;
+    margin-left: 12%;
+    padding: 1%;
+}
+.half-width img{
+  width: 108%;
+}
+.link-button{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, pink, deeppink);
+  padding: 10px 35px;
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.header-bg{
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  section{
+    height: 500px;
+    padding-bottom: 150px;
+  }
+  .biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .center-align{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .one-third{
+      width: 25%;
+      float: left;
+      margin: 0;
+      padding:1% ;
+      
+  }
+  .one-third img{
+      width: 100%;
+  }
+  #left-position{
+    margin-left: 10%;
+  }
+  .latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .position-padding{
+    margin: 0;
+    padding-bottom: 100px;
+  }
+  .center{
+    text-align: center;
+    margin: 0;
+  }
+  #name{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 5px;
+
+  }
+  #quotation{
+    text-align: center;
+    color: rgb(15, 14, 14);
+    font-weight: 480;
+    font-size: 18px;
+  }
+  h4{
+    font-weight: 300; 
+  }
+  .contact{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, pink, deeppink);
+    background-position: center;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    height: 20%;
+    padding: 3%;
+    border-radius: 7px;
+    color: white;
+  }
+  .email{
+    font-size: 25px;
+  }
+  .footer-bg{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  footer p{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 100px;
+  }
+  .link-button:hover {
+    color: rgb(20, 36, 182);
+  }
